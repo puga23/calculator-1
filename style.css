@@ -77,6 +77,7 @@ body {
   color: #ffe53d;
   font-size: 56px;
   font-weight: bold;
+  overflow: hidden;
 }
 
 .btn-div {
