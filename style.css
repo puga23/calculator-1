@@ -78,6 +78,9 @@ body {
   font-size: 56px;
   font-weight: bold;
   overflow: hidden;
+  /* overflow-wrap: anywhere; */
+  /* word-wrap: break-word; */
+  text-overflow: ellipsis;
 }
 
 .btn-div {
