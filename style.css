@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: 0;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -36,7 +37,6 @@ body {
   color: #ffe53d;
 }
 .calc {
-  color: #ffe53d;
   font-size: 32px;
   font-weight: bold;
 }
@@ -63,6 +63,18 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 50%;
+}
+
+.theme-btn1 {
+  opacity: 0;
+}
+
+.theme-btn2 {
+  opacity: 0;
+}
+
+.theme-btn3 {
+  opacity: 0;
 }
 
 .display {
