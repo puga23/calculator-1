@@ -3,7 +3,7 @@ const display = document.querySelector(".display");
 console.dir(display);
 
 function btnText(x) {
-  if(display.textContent.length <= 18){
+ 
     if (
       display.textContent === "" &&
       (x === "-" || x === "+" || x === "/" || x === "*")
@@ -14,7 +14,6 @@ function btnText(x) {
     } else {
       display.textContent = display.textContent + x;
     }
-  }
 
 }
 
