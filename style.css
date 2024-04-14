@@ -4,11 +4,71 @@
   box-sizing: 0;
 }
 
+:root {
+  --bodybackground-color: #17062a;
+  --div123color: #ffe53d;
+  --div3background-color: #1e0936;
+  --themecolor: #ffe53d;
+  --displaybackground-color: #1e0936;
+  --displaycolor: #ffe53d;
+  --btn-divbackground-color: #1e0936;
+  --buttonbackground-color: #331c4d;
+  --buttoncolor: #ffe53d;
+  --buttonshadow: #881c9e;
+  --delbackground-color: #56077c;
+  --delcolor: white;
+  --resbackground-color: #56077c;
+  --resetcolor: white;
+  --tolobabackground-color: #00ded0;
+  --tolcolor: black;
+  --tolshadow: #6cf9f1;
+}
+
+.theme1 {
+  --bodybackground-color: #3A4663;
+  --div123color: white;
+  --div3background-color: #242D44;
+  --themecolor: white;
+  --displaybackground-color: #181F33;
+  --displaycolor: white;
+  --btn-divbackground-color: #242D44;
+  --buttonbackground-color: #EAE3DC;
+  --buttoncolor: #434A59;
+  --buttonshadow: #B3A497;
+  --delbackground-color: #647198;
+  --delcolor: white;
+  --resbackground-color: #647198;
+  --resetcolor: white;
+  --tolobabackground-color: #D03F2F;
+  --tolcolor: white;
+  --tolshadow: #93261A;
+}
+
+.theme2 {
+  --bodybackground-color: #E6E6E6;
+  --div123color: black;
+  --div3background-color: #D2CDCD;
+  --themecolor: black;
+  --displaybackground-color: #EEEEEE;
+  --displaycolor: black;
+  --btn-divbackground-color: #D2CDCD;
+  --buttonbackground-color: #E5E4E1;
+  --buttoncolor: #36362C;
+  --buttonshadow: #A79E91;
+  --delbackground-color: #378187;
+  --delcolor: white;
+  --resbackground-color: #378187;
+  --resetcolor: white;
+  --tolobabackground-color: #C85402;
+  --tolcolor: white;
+  --tolshadow: #873901;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #17062a;
+  background-color: var(--bodybackground-color);
   padding: 5%;
 }
 
@@ -28,53 +88,58 @@ body {
   align-items: end;
 }
 
-.div2 {
-}
+.div2 {}
 
 .div123 {
   display: flex;
   justify-content: space-around;
-  color: #ffe53d;
+  color: var(--div123color);
 }
+
 .calc {
+  color: var(--div123color);
   font-size: 32px;
   font-weight: bold;
 }
+
 .div3 {
   align-items: center;
   justify-content: space-around;
   display: flex;
-  background-color: #1e0936;
+  background-color: var(--div3background-color);
   height: 26px;
   width: 71px;
   border-radius: 13px;
 }
 
 .theme {
-  color: #ffe53d;
+  color: var(--themecolor);
   font-size: 12px;
   font-weight: bold;
   margin-right: 30px;
 }
 
 .cirk1 {
+
   display: block;
-  background-color: aqua;
   width: 16px;
   height: 16px;
   border-radius: 50%;
 }
 
 .theme-btn1 {
+  background-color: #D03F2F;
   opacity: 0;
 }
 
 .theme-btn2 {
+  background-color: #C85402;
   opacity: 0;
 }
 
 .theme-btn3 {
-  opacity: 0;
+  background-color: aqua;
+  opacity: 1;
 }
 
 .display {
@@ -83,10 +148,10 @@ body {
   padding: 5%;
   justify-content: end;
   height: 128px;
-  background-color: #1e0936;
+  background-color: var(--displaybackground-color);
   margin-top: 31px;
   border-radius: 10px;
-  color: #ffe53d;
+  color: var(--displaycolor);
   font-size: 56px;
   font-weight: bold;
   overflow: hidden;
@@ -97,41 +162,41 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #1e0936;
+  background-color: var(--btn-divbackground-color);
   margin-top: 26px;
 }
 
 button {
   width: 101px;
   height: 70px;
-  background-color: #331c4d;
-  color: #ffe53d;
+  background-color: var(--buttonbackground-color);
+  color: var(--buttoncolor);
   font-size: 40px;
   font-weight: bold;
-  box-shadow: 0 -4px #881c9e inset;
+  box-shadow: 0 -4px var(--buttonshadow) inset;
   margin: 11px;
   border-radius: 10px;
 }
 
 .del {
-  background-color: #56077c;
-  color: white;
+  background-color: var(--delbackground-color);
+  color: var(--delcolor);
   font-size: 28px;
 }
 
 .reset {
-  background-color: #56077c;
-  color: white;
+  background-color: var(--resbackground-color);
+  color: var(--resetcolor);
   font-size: 28px;
   width: 227px;
   height: 64px;
 }
 
 .toloba {
-  background-color: #00ded0;
-  color: black;
+  background-color: var(--tolobabackground-color);
+  color: var(--tolcolor);
   font-size: 28px;
   width: 227px;
   height: 64px;
-  box-shadow: 0 -4px 0 #6cf9f1 inset;
+  box-shadow: 0 -4px 0 var(--tolshadow) inset;
 }
