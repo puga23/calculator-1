@@ -1,0 +1,33 @@
+@media screen and (max-width: 560px) {
+  .reset {
+    width: 45%;
+    height: 64px;
+    font-size: 20px;
+  }
+
+  .toloba {
+    width: 45%;
+    height: 64px;
+    font-size: 20px;
+  }
+
+  .del {
+    font-size: 20px;
+  }
+
+  button {
+    width: 20%;
+    height: 64px;
+    font-size: 32px;
+    margin: 2%;
+  }
+
+  .btn-div {
+    justify-content: space-between;
+    padding: 18px;
+  }
+
+  .display {
+    height: 88px;
+  }
+}

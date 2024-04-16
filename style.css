@@ -25,47 +25,48 @@
 }
 
 .theme1 {
-  --bodybackground-color: #3A4663;
+  --bodybackground-color: #3a4663;
   --div123color: white;
-  --div3background-color: #242D44;
+  --div3background-color: #242d44;
   --themecolor: white;
-  --displaybackground-color: #181F33;
+  --displaybackground-color: #181f33;
   --displaycolor: white;
-  --btn-divbackground-color: #242D44;
-  --buttonbackground-color: #EAE3DC;
-  --buttoncolor: #434A59;
-  --buttonshadow: #B3A497;
+  --btn-divbackground-color: #242d44;
+  --buttonbackground-color: #eae3dc;
+  --buttoncolor: #434a59;
+  --buttonshadow: #b3a497;
   --delbackground-color: #647198;
   --delcolor: white;
   --resbackground-color: #647198;
   --resetcolor: white;
-  --tolobabackground-color: #D03F2F;
+  --tolobabackground-color: #d03f2f;
   --tolcolor: white;
-  --tolshadow: #93261A;
+  --tolshadow: #93261a;
 }
 
 .theme2 {
-  --bodybackground-color: #E6E6E6;
+  --bodybackground-color: #e6e6e6;
   --div123color: black;
-  --div3background-color: #D2CDCD;
+  --div3background-color: #d2cdcd;
   --themecolor: black;
-  --displaybackground-color: #EEEEEE;
+  --displaybackground-color: #eeeeee;
   --displaycolor: black;
-  --btn-divbackground-color: #D2CDCD;
-  --buttonbackground-color: #E5E4E1;
-  --buttoncolor: #36362C;
-  --buttonshadow: #A79E91;
+  --btn-divbackground-color: #d2cdcd;
+  --buttonbackground-color: #e5e4e1;
+  --buttoncolor: #36362c;
+  --buttonshadow: #a79e91;
   --delbackground-color: #378187;
   --delcolor: white;
   --resbackground-color: #378187;
   --resetcolor: white;
-  --tolobabackground-color: #C85402;
+  --tolobabackground-color: #c85402;
   --tolcolor: white;
   --tolshadow: #873901;
 }
 
 body {
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: var(--bodybackground-color);
@@ -88,7 +89,8 @@ body {
   align-items: end;
 }
 
-.div2 {}
+.div2 {
+}
 
 .div123 {
   display: flex;
@@ -120,7 +122,6 @@ body {
 }
 
 .cirk1 {
-
   display: block;
   width: 16px;
   height: 16px;
@@ -128,12 +129,12 @@ body {
 }
 
 .theme-btn1 {
-  background-color: #D03F2F;
+  background-color: #d03f2f;
   opacity: 0;
 }
 
 .theme-btn2 {
-  background-color: #C85402;
+  background-color: #c85402;
   opacity: 0;
 }
 
@@ -164,6 +165,7 @@ body {
   align-items: center;
   background-color: var(--btn-divbackground-color);
   margin-top: 26px;
+  padding: 0px;
 }
 
 button {

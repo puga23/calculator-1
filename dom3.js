@@ -5,6 +5,7 @@ const btn3 = document.querySelector(".theme-btn3")
 const div3 = document.querySelector(".div3")
 
 
+
 console.dir(display);
 
 btn1.onclick=function(){
